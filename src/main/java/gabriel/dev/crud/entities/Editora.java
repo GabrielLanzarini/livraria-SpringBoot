@@ -3,7 +3,6 @@ package gabriel.dev.crud.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
-
 @Data
 @Table(name = "editoras")
 @Entity

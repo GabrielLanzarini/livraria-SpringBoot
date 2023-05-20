@@ -2,7 +2,6 @@ package gabriel.dev.crud.controller;
 
 
 import gabriel.dev.crud.entities.Editora;
-import gabriel.dev.crud.repository.EditoraRepository;
 import gabriel.dev.crud.service.EditoraService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

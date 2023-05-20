@@ -4,7 +4,6 @@ package gabriel.dev.crud.service;
 import gabriel.dev.crud.entities.Editora;
 import gabriel.dev.crud.repository.EditoraRepository;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;

@@ -3,7 +3,6 @@ package gabriel.dev.crud.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -16,6 +15,8 @@ public class Livro {
     private Long id;
 
     private String titulo;
+
+    private Boolean emprestado;
 
     @OneToOne
     @JoinColumn(name = "autor_id",  referencedColumnName = "id")

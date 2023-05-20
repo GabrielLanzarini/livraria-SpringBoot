@@ -37,6 +37,7 @@ public class LivroService {
         Livro saveLivro = LivroMapper.INSTANCE.toLivro(livro);
         saveLivro.setAutor(autorService.listOne(livro.getAutor_id()));
         saveLivro.setEditora(editoraService.listOne(livro.getEditora_id()));
+        saveLivro.setEmprestado(false);
         saveLivro.setAno(new Date());
         return livroRepository.save(saveLivro);
     }
